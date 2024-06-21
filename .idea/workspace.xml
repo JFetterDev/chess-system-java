@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="848863df-7f7f-4321-b8e0-4d65345a61ae" name="Changes" comment="First Class: Position">
-      <change afterPath="$PROJECT_DIR$/src/main/java/boardgame/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/boardgame/Piece.java" afterDir="false" />
+    <list default="true" id="848863df-7f7f-4321-b8e0-4d65345a61ae" name="Changes" comment="Starting to implement Board and Piece">
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chess/ChessMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chess/ChessPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chess/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/boardgame/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,11 @@
       <option name="presentableId" value="Default" />
       <updated>1718517256683</updated>
       <workItem from="1718517258271" duration="4998000" />
-      <workItem from="1718625346089" duration="3056000" />
+      <workItem from="1718625346089" duration="6315000" />
+      <workItem from="1718833256086" duration="1270000" />
+      <workItem from="1718926817979" duration="641000" />
+      <workItem from="1718939806428" duration="2154000" />
+      <workItem from="1718966938562" duration="9443000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1718627218559</created>
@@ -74,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718628315487</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Starting to implement Board and Piece">
+      <created>1718629285524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718629285524</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,7 +105,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -102,10 +116,26 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
     <MESSAGE value="First Class: Position" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Class: Position" />
+    <MESSAGE value="Starting to implement Board and Piece" />
+    <option name="LAST_COMMIT_MESSAGE" value="Starting to implement Board and Piece" />
   </component>
 </project>
